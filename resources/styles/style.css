@@ -208,6 +208,14 @@ body {
   page-break-before: auto;
 }
 
+.titulocolor {
+ color: #3d92be;
+}
+
+.subcolor {
+  color: #7c432f;
+ }
+
 .titulocaixa {
   display: block;
   font-size: 1.29167em;
@@ -236,6 +244,16 @@ body {
 
 .imagemparalela {
   min-width: 80%;
+  height: auto;
+}
+.imagemparalela2 {
+  min-width: 300px;
+  height: auto;
+  text-align: right;
+}
+
+.imagemparalela3 {
+  min-width: 0,5fr!important;
   height: auto;
 }
 
