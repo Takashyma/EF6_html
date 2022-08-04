@@ -192,7 +192,11 @@ body {
 .calibre8 {
   text-align: left;
 }
-
+.LayoutDuplo{
+  display: flex;
+  gap: 2em;
+  grid-template-columns: repeat(2, 1fr);
+}
 .calibre9 {
   background-color: #4a91c5;
   shape-margin: 5%;
@@ -216,6 +220,15 @@ body {
   color: #7c432f;
  }
 
+
+ .subcolor2 {
+  color: #d8523b;
+ }
+.LayoutDuplo{
+  display: flex;
+  gap: 2em;
+  grid-template-columns: repeat(2, 1fr);
+}
 .titulocaixa {
   display: block;
   font-size: 1.29167em;
@@ -351,6 +364,11 @@ li {
 }
 .credito{
   font-size: 8px;
+}
+
+.legenda{
+  font-size: 8px;
+  text-align: left;
 }
 
 
